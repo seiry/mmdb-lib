@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import Decoder from './decoder';
 import ipUtil from './ip';
 import { Metadata, parseMetadata } from './metadata';
@@ -6,6 +7,8 @@ import walker, { Walker } from './reader/walker';
 import { ReaderOptions } from './types';
 
 const DATA_SECTION_SEPARATOR_SIZE = 16;
+
+global.Buffer = Buffer;
 
 export class Reader<T extends Response> {
   public metadata: Metadata;
