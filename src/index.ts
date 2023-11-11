@@ -8,8 +8,6 @@ import { ReaderOptions } from './types';
 
 const DATA_SECTION_SEPARATOR_SIZE = 16;
 
-global.Buffer = Buffer;
-
 export class Reader<T extends Response> {
   public metadata: Metadata;
   private decoder: Decoder;
