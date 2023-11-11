@@ -1,5 +1,6 @@
 import utils from './utils';
 import { Cache } from './types';
+import { Buffer } from 'buffer';
 
 // assert(
 //   typeof BigInt !== 'undefined',
