@@ -1,5 +1,6 @@
 import Decoder from './decoder';
 import utils from './utils';
+import { Buffer } from 'buffer';
 
 const METADATA_START_MARKER = Buffer.from(
   'ABCDEF4D61784D696E642E636F6D',
