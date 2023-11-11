@@ -2,6 +2,7 @@ import { strict as assert } from 'assert';
 import fs from 'fs';
 import path from 'path';
 import Decoder from './decoder';
+import { Buffer } from 'buffer';
 
 describe('lib/decoder', () => {
   describe('decodeByType()', () => {

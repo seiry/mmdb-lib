@@ -6,6 +6,7 @@ import sinon from 'sinon';
 import { Reader } from '../';
 import { Cache } from '../types';
 import { Response } from '../reader/response';
+import { Buffer } from 'buffer';
 
 const dataDir = path.join(__dirname, '../../test/data/test-data');
 const srcDir = path.join(__dirname, '../../test/data/source-data');
