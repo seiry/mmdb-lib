@@ -1,5 +1,5 @@
 {
-  "name": "mmdb-lib",
+  "name": "mmdb.js",
   "version": "0.0.0-development",
   "homepage": "https://github.com/runk/mmdb-lib",
   "description": "Maxmind DB (MMDB) Library",
