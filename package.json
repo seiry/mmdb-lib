@@ -1,8 +1,8 @@
 {
   "name": "mmdb.js",
   "version": "0.0.0-development",
-  "homepage": "https://github.com/runk/mmdb-lib",
-  "description": "Maxmind DB (MMDB) Library",
+  "homepage": "https://github.com/seiry/mmdb.js",
+  "description": "Maxmind DB (MMDB) Library in JS",
   "keywords": [
     "maxmind",
     "mmdb",
@@ -33,11 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/runk/mmdb-lib.git"
+    "url": "https://github.com/seiry/mmdb.js"
   },
   "bugs": {
-    "mail": "deadrunk@gmail.com",
-    "url": "http://github.com/runk/mmdb-lib/issues"
+    "url": "https://github.com/seiry/mmdb.js/issues"
   },
   "files": [
     "lib"
@@ -45,7 +44,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "engines": {
-    "node": ">=10",
+    "node": ">=18",
     "npm": ">=6"
   },
   "license": "MIT",
