@@ -1,4 +1,4 @@
-# mmdb-lib
+# mmdb.js
 
 Javascript library for working with Maxmind binary databases (aka mmdb or geoip2).
 
@@ -7,14 +7,14 @@ Library is designed to be agnostic to environment and works equally well in node
 ## Installation
 
 ```shell
-npm i mmdb-lib
+npm i mmdb.js
 ```
 
 ## Usage
 
 ```typescript
 import fs from 'fs';
-import * as mmdb from 'mmdb-lib';
+import * as mmdb from 'mmdb.js';
 
 // Get a buffer with mmdb database, from file system or whereever.
 const db = fs.readFileSync('/path/to/GeoLite2-City.mmdb');
