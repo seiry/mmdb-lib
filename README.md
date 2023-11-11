@@ -1,5 +1,7 @@
 # mmdb.js
 
+Could running in broswer env.
+
 Javascript library for working with Maxmind binary databases (aka mmdb or geoip2).
 
 Library is designed to be agnostic to environment and works equally well in node.js and browser. Module is fully compatible with IPv6. There are no differences in API between IPv4 and IPv6.
